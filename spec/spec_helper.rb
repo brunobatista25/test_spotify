@@ -1,6 +1,7 @@
 require 'httparty'
 require 'httparty/request'
 require 'httparty/response/headers'
+require 'faker'
 
 require_relative '../services/user_service.rb'
 

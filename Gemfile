@@ -1,4 +1,6 @@
- source 'https://rubygems.org'
+source 'https://rubygems.org'
 
- gem 'httparty'
- gem 'rspec'
+gem 'faker'
+gem 'httparty'
+gem 'rspec'
+gem 'rubocop'
