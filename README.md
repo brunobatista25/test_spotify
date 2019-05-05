@@ -11,9 +11,9 @@ Httparty - Gem com os comandos para testes de api.
 
 Rspec - Gem para estruturar o projeto e rodar os testes e asserções.
 
-Faker - Gem para geraçaão de dados aleatórios.
+Faker - Gem para geração de dados aleatórios.
 
-Rubocop - Gem para verificaçaão estatica do codigo.
+Rubocop - Gem para verificação estática do código.
 ```
 
 ## Conta
@@ -35,9 +35,9 @@ user_sevice.rb
 ````
 (Lá já tem um token mas como ele expira basta alterar esse token e por o que foi gerado no site.)
 
-Cenários:
+# Cenários:
 
-Foi feito alguns testes saão esses:
+Foi feito alguns testes são esses:
 
 Buscar perfil com sucesso pelo id.
 
@@ -71,7 +71,7 @@ Baixe o projeto
 git clone https://github.com/brunobatista25/test_spotify
 ```
 
-Acesse a pasta e isntale as dependêcias:
+Acesse a pasta e instale as dependêcias:
 
 ```
 cd test_spotify
@@ -85,4 +85,25 @@ Rode o comando
 
 ```
 bundle exec rspec
+```
+
+# Rodando com Docker
+
+Acesse a pasta e instale as dependêcias:
+
+```
+cd test_spotify
+```
+
+Crie uma imagem
+
+```
+docker build -t <nome_da_imagem> .
+```
+(Este comando cria imagem atráves do arquivo dokerfile dentro do projeto).
+
+Rodar a imagem
+
+```
+docker run --rm <image_name> bundle exec rspec
 ```
