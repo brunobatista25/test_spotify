@@ -110,6 +110,7 @@ describe 'Playlist' do
                                           body: @body
 
      expect(@remover_traker.code).to eq 200
+     expect(@add_playlist['tracks']['items']).to be_empty
     end
   end
 end
