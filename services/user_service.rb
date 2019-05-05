@@ -3,6 +3,6 @@ module UserService
   include HTTParty
   base_uri 'https://api.spotify.com/v1'
   format :json
-  headers Authorization: 'Bearer BQDNWcx6Yj7jpx612FpoTIJCnjO1F9ZVe57LTp3uWfgA6ssBf_ZO7lzwTyugSmahTo82VNFm8t6uprHQQQ8m7KxCjngcHBNZejuBi1HR4gxy6B2xto7HiFnnJYB4oh4Ea5Kk9IMmRjkkzssEGXlhGGtXnp2LpkEEwy8BHks_5wP_czzTNL9ZI7DJfXy43vTNrrMdk7_MS-kgIMHZ-zCywmRJUJF-3Z9ubJLSt6bR7u6DuJc_K4kyjCEJjyewe-lkQN-gMLPuT1QD3JXQ104-evVSmVvneuYCQW4',
+  headers Authorization: 'Bearer BQDpHMvCB3PJ0Tt2MbmjrfC5DNMDDcXnACwjn8F2u0l7BIns0YKZ25j_N5lz7Hez1bCwdJ5-qE_Bs71sATJgFk-thMJcnqEScnl_8-720BqjA67ualf8kTmaeJcGEuaAOzvV2ZAzsuiDYqFEXaPDTE4zlqeBvG1fHKGacqrxd2GHQxcdBwEGU9S-sYKu4OC-_-aCBoHpaA4d8a7U5-pnb_tNwexrrQ2LckubkeEn2ChTnqI6NzGdUtP-fhZWEzWLF0LGkzdiLH2gJxAMCTxpygVuVR0IEnN7Lxg',
           'Content-Type': 'application/json'
 end
